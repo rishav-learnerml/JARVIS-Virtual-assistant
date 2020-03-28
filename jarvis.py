@@ -6,6 +6,8 @@ import webbrowser
 import os
 import smtplib
 
+#In terminal write pip install PyAudio
+
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 
